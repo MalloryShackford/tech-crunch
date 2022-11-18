@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  overflow: scroll;
+  margin:0;
+  padding:0;
+  font-family:"roboto", sans-serif;
+}
+
+.navvy{
+  float:left;
+  width:15%;
+}
+.logo{
+  float:left;
+  display:block;
+  margin: 25px 0 10px 40px;
+}
+ .join {
+  float:left;
+  display:block;
+  text-decoration:none;
+  list-style: none;
+  color: gold;
+  font-size:12px;
+  font-weight: bolder;
+}
+ .login {
+   float:left;
+   display:block;
+   text-decoration:none;
+   list-style: none;
+   font-size: 12px;
+   color:gray;
+ }
+
+ .leftnav >li  {
+  float:left;
+ display:block;
+ line-height: 20px;
+ list-style: none;
+ font-size: 16px;
+ color:gray;
+}
+
+.fnav {
+float:left;
+ display:block;
+ line-height: 20px;
+ text-decoration: none;
+ font-size: 16px;
+ color:gray;
+}
+
+main {
+  float: left;
+  width:55%;
+  height:70%;
+}
+main > h1 {
+  float:left;
+  margin: 0 10px 10px 15px;
+}
+
+main > p{
+  float:left;
+  color:gray;
+  font-size: 16px;
+  margin: 0 10px 10px 15px;
+}
+main >span {
+  float:left;
+  color:black;
+  font-weight: bold;
+  margin: 10px 10px 10px 15px;
+}
+main > img {
+  float:left;
+  margin: 10px 0 15px 15px;
+  clear:both;
+}
+
+.blurb {
+  float:left;
+  width: 30%;
+  height:70%;
+  margin:0;
+}
+.dots {
+  float: left;
+  list-style: none;
+}
+
+.seller > h3 {
+  float: left;
+  list-style: none;
+  margin: 10px 0 10px 0;
+}
+
+.seller > span {
+  float: left;
+  list-style: none;
+}
+
+.wonder {
+  float:left;
+  width: 100%;
+  margin:0;
+  height: auto;
+  display:inline;
+  clear:both;
+}
+.title {
+  float:left;
+  font-weight: bolder;
+  clear:both;
+}
+.woman, .covid, .wwpic {
+  float: left;
+  text-align: left;
+  width:25%;
+  padding:10px;
+}
+
+.woman{
+  clear:both;
+  margin-left: 150px;
+  margin-top:25px;
+}
+.ha {
+float: left;
+font-weight: bold;
+padding-right: 20px;
+margin-bottom: 10px;
+}
+.time {
+  float:left;
+  color: gray;
+}
+.covid {
+  float:left;
+  color:gray;
+  margin-left: 25px; 
+}
+.wick {
+  float:left;
+  margin-left: 25px;
+}
